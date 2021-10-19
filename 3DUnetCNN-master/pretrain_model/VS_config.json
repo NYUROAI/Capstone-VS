@@ -4,7 +4,7 @@
   "generate_filenames_kwargs": {
     "directory": "../data/VS{subject}",
     "feature_templates": [
-      "image_t1.nii.gz",
+      "image.nii.gz",
     ],
     "target_templates": "mask_VS.nii.gz"
   },
