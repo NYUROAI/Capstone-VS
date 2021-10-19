@@ -9,9 +9,9 @@
     "target_templates": "mask_VS.nii.gz"
   },
   "window": [
-    176,
-    224,
-    144
+    256,
+    256,
+    208
   ],
   "n_features": 1,
   "optimizer": "Adam",
