@@ -1,22 +1,19 @@
 {
-  "subjects_filename": "examples/brats2020/brats_subjects_2020.json",
+  "subjects_filename": "VS_subject.json",
   "generate_filenames": "templates",
   "generate_filenames_kwargs": {
-    "directory": "MICCAI_BraTS2020_TrainingData/BraTS20_Training_{subject}",
+    "directory": "../data/VS{subject}",
     "feature_templates": [
-      "BraTS20_Training_{subject}_t1.nii.gz",
-      "BraTS20_Training_{subject}_t1ce.nii.gz",
-      "BraTS20_Training_{subject}_flair.nii.gz",
-      "BraTS20_Training_{subject}_t2.nii.gz"
+      "image_t1.nii.gz",
     ],
-    "target_templates": "BraTS20_Training_{subject}_seg.nii.gz"
+    "target_templates": "mask_VS.nii.gz"
   },
   "window": [
     176,
     224,
     144
   ],
-  "n_features": 4,
+  "n_features": 1,
   "optimizer": "Adam",
   "package": "pytorch",
   "loss": "per_channel_dice_loss",
