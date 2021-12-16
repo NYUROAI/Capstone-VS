@@ -21,7 +21,7 @@ Subject File Generation (`Generate_VS_Subject.ipynb`)
 Model 
 - The code used for building the model are based on [3DUnetCNN](https://github.com/ellisdg/3DUnetCNN) with modification
 - Modified code in folder `unet3d`
-- Further fine tuned the [pretrained model](https://zenodo.org/record/4289225#.YbqM2S-B2Cc) from David G Ellis [BraTS2020](https://www.med.upenn.edu/cbica/brats2020/data.html)  for extra 99 epochs, where the final model is linked here ` https://drive.google.com/file/d/1qC04-SPZOyn4IxmmzPHVJI1VrFHbBxmo/view?usp=sharing `
+- Further fine tuned the [pretrained model](https://zenodo.org/record/4289225#.YbqM2S-B2Cc) from David G Ellis [BraTS2020](https://www.med.upenn.edu/cbica/brats2020/data.html)  for extra 99 epochs, where the final model is linked [here](https://drive.google.com/file/d/1qC04-SPZOyn4IxmmzPHVJI1VrFHbBxmo/view?usp=sharing)
 - Configuration file used during training is `VS_config.json`
 - Script to train the model `script_pretrain.sh`
 - Script to predict tumor label `script_predict.sh`
