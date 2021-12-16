@@ -8,7 +8,8 @@ Data Processing (`Data Processing.ipynb`)
 - Rename whole brain scan image for each patient to `image_{Patient_number}.nii.gz`
 
 Model 
-- Code used for building the model from [3DUnetCNN](https://github.com/ellisdg/3DUnetCNN)
+- Code used for building the model from [3DUnetCNN](https://github.com/ellisdg/3DUnetCNN) with modification
+- Modified code in folder unet3d
 - Further fine tuned the [pretrained model](https://zenodo.org/record/4289225#.YbqM2S-B2Cc) from David G Ellis for [BraTS2020](https://www.med.upenn.edu/cbica/brats2020/data.html)  for extra 99 epochs linked here ``
 - Configuration file used during training `VS_config.json`
 - Script to train the model `script_pretrain.sh`
