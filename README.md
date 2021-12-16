@@ -1,9 +1,10 @@
-# Capstone-VS
-CDS Capstone Project for Vestibular Shwannoma
+# Capstone-Vestibular Shwannoma
+NYU Center of Data Science Capstone Project for Vestibular Shwannoma
+
 All settings are for Big Purple (HPC provided by NYU Langone Health).
 
 
-(`VS_censor_send.xlsx`) contains the patient subject to be included and exluded as well as ground truth volume information
+(`VS_censor_send.xlsx`) contains the patient subject to be included and exluded in the model as well as ground truth tumor volume.
 
 
 Data Processing (`DataProcessing.ipynb`)
@@ -18,22 +19,22 @@ Subject File Generation (`Generate_VS_Subject.ipynb`)
 
 
 Model 
-- Code used for building the model from [3DUnetCNN](https://github.com/ellisdg/3DUnetCNN) with modification
+- The code used for building the model are based on [3DUnetCNN](https://github.com/ellisdg/3DUnetCNN) with modification
 - Modified code in folder `unet3d`
-- Further fine tuned the [pretrained model](https://zenodo.org/record/4289225#.YbqM2S-B2Cc) from David G Ellis for [BraTS2020](https://www.med.upenn.edu/cbica/brats2020/data.html)  for extra 99 epochs linked here ``
-- Configuration file used during training `VS_config.json`
+- Further fine tuned the [pretrained model](https://zenodo.org/record/4289225#.YbqM2S-B2Cc) from David G Ellis [BraTS2020](https://www.med.upenn.edu/cbica/brats2020/data.html)  for extra 99 epochs, where the final model is linked here ` https://drive.google.com/file/d/1qC04-SPZOyn4IxmmzPHVJI1VrFHbBxmo/view?usp=sharing `
+- Configuration file used during training is `VS_config.json`
 - Script to train the model `script_pretrain.sh`
 - Script to predict tumor label `script_predict.sh`
 - [Final Model](https://drive.google.com/file/d/1qC04-SPZOyn4IxmmzPHVJI1VrFHbBxmo/view?usp=sharing)
 
 
 Model Evaluation (`model_evaluation.ipynb`)
-- Visualization of learning process on train and validation set 
-- Model Performance on test set (dice score)
-- Top and worst Predictions
+- Visualizing the learning curve on train and validation set 
+- Display model performance on test set (dice score)
+- Show the top and worst predictions
 
 Evaluation Metrics 
-- Calculation of confidence score (`Confidence_Score.ipynb`)
+- Make calculation of confidence score (`Confidence_Score.ipynb`) on the model prediction
 
 Volume Calculation 
 - Tumor volume calculation based on pixel counts (`tumor_vol_calculation.ipynb`)
