@@ -11,7 +11,8 @@ Model
 - Code used for building the model from https://github.com/ellisdg/3DUnetCNN
 - Further fine tuned the pretrained model for extra 99 epochs linked here ``
 - Configuration file used during training `VS_config.json`
-- 
+- Script to train the model `script_pretrain.sh`
+- Script to predict tumor label `script_predict.sh`
 
 
 Model Evaluation (`model_evaluation.ipynb`)
