@@ -1,5 +1,5 @@
-# Capstone-Vestibular Shwannoma
-NYU Center of Data Science Capstone Project for Vestibular Shwannoma
+# Capstone-Vestibular Schwannoma
+NYU Center of Data Science Capstone Project for Vestibular Schwannoma
 
 All data are stored in Big Purple (HPC provided by NYU Langone Health). The directories or environment settings in the code are all under the Big Purple setting.
 
