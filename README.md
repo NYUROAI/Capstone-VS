@@ -9,7 +9,7 @@ Data Processing (`Data Processing.ipynb`)
 
 Model 
 - Code used for building the model from [3DUnetCNN](https://github.com/ellisdg/3DUnetCNN)
-- Further fine tuned the [pretrained model](https://zenodo.org/record/4289225#.YbqM2S-B2Cc) from David G Ellis' [work](https://github.com/NYUROAI/3DUnetCNN/tree/master/examples/brats2020) for [BraTS2020](https://www.med.upenn.edu/cbica/brats2020/data.html)  for extra 99 epochs linked here ``
+- Further fine tuned the [pretrained model](https://zenodo.org/record/4289225#.YbqM2S-B2Cc) from David G Ellis for [BraTS2020](https://www.med.upenn.edu/cbica/brats2020/data.html)  for extra 99 epochs linked here ``
 - Configuration file used during training `VS_config.json`
 - Script to train the model `script_pretrain.sh`
 - Script to predict tumor label `script_predict.sh`
