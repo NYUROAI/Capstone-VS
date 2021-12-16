@@ -1,10 +1,10 @@
 # Capstone-Vestibular Shwannoma
 NYU Center of Data Science Capstone Project for Vestibular Shwannoma
 
-All data are stored in Big Purple (HPC provided by NYU Langone Health). The directories in the code are all under the Big Purple setting.
+All data are stored in Big Purple (HPC provided by NYU Langone Health). The directories or environment settings in the code are all under the Big Purple setting.
 
 
-(`VS_censor_send.xlsx`) contains the patient subject to be included and exluded in the model as well as ground truth tumor volume.
+(`VS_censor_send.xlsx`) contains the patient subject to be included and exluded in the model as well as ground truth tumor volumes.
 
 
 Data Processing (`DataProcessing.ipynb`)
