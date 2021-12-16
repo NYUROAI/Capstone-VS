@@ -1,11 +1,21 @@
 # Capstone-VS
 CDS Capstone Project for Vestibular Shwannoma
+The work is done in Big Purple (HPC provided by NYU Langone Health).
+
+
+
+
 
 Data Processing (`DataProcessing.ipynb`)
 - Resize all input images to (256,256,208)
 - Convert mask values from 255 to 1
 - Rename the mask file for each patient to `mask_VS_{Patient_number}.nii.gz`
 - Rename whole brain scan image for each patient to `image_{Patient_number}.nii.gz`
+
+
+Subject File Generation (`Generate_VS_Subject.ipynb`)
+- Generate `VS_subject.json` to stream data in
+
 
 Model 
 - Code used for building the model from [3DUnetCNN](https://github.com/ellisdg/3DUnetCNN) with modification
