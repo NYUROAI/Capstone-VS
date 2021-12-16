@@ -29,9 +29,9 @@ Model
 
 
 Model Evaluation (`model_evaluation.ipynb`)
-- Visualizing the learning curve on train and validation set 
+- Visualizing the learning curve on train and validation set based on prediction log
 - Display model performance on test set (dice score)
-- Show the top and worst predictions
+- Show the top and worst predictions with predicted tumor mask
 
 Evaluation Metrics 
 - Make calculation of confidence score (`Confidence_Score.ipynb`) on the model prediction
@@ -39,4 +39,7 @@ Evaluation Metrics
 Volume Calculation 
 - Tumor volume calculation based on pixel counts (`tumor_vol_calculation.ipynb`)
 - Volume performance evaluation(`vol_comparison_version_2.ipynb`)
+
+
+
     
