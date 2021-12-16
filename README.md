@@ -1,9 +1,9 @@
 # Capstone-VS
 CDS Capstone Project for Vestibular Shwannoma
-The work is done in Big Purple (HPC provided by NYU Langone Health).
+All settings are for Big Purple (HPC provided by NYU Langone Health).
 
 
-
+(`VS_censor_send.xlsx`) contains the patient subject to be included and exluded as well as ground truth volume information
 
 
 Data Processing (`DataProcessing.ipynb`)
@@ -14,7 +14,7 @@ Data Processing (`DataProcessing.ipynb`)
 
 
 Subject File Generation (`Generate_VS_Subject.ipynb`)
-- Generate `VS_subject.json` to stream data in
+- Generate `VS_subject.json` to stream data
 
 
 Model 
