@@ -5,7 +5,7 @@ All data are stored in Big Purple (HPC provided by NYU Langone Health). The dire
 
 
 (`VS_censor_send.xlsx`) contains the patient subject to be included and exluded in the model as well as ground truth tumor volumes.
-Capstone_Report.pdf contains the final report of this project.
+`Capstone_Report.pdf` contains the final report of this project.
 
 Data Processing (`DataProcessing.ipynb`)
 - Resize all input images to (256,256,208)
