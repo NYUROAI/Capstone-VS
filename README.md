@@ -8,9 +8,10 @@ Data Processing (`Data Processing.ipynb`)
 - Rename whole brain scan image for each patient to `image_{Patient_number}.nii.gz`
 
 Model 
-- Code used for building the model is contained in the folder `3DUnetCNN`
+- Code used for building the model from https://github.com/ellisdg/3DUnetCNN
 - Further fine tuned the pretrained model for extra 99 epochs linked here ``
 - Configuration file used during training `VS_config.json`
+- 
 
 
 Model Evaluation (`model_evaluation.ipynb`)
